@@ -27,20 +27,27 @@ y    createPlatform(-50, -50, canvas.width + 100, 50); // top wall
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    // toggleGrid()                                                                                                                                                   
+     toggleGrid()                                                                                                                                                   
 
 
     // TODO 2 - Create Platforms
-
+    createPlatform(500, 350, 250,700);
+    createPlatform(750, 1050, 250, 700, "blue");
 
 
 
     // TODO 3 - Create Collectables
+    createCollectable("diamond",750, 1400);
+    createCollectable("steve", 0, 350, 0.5, 0.7);
+    createCollectable("database", 750, 0);
 
 
 
     
     // TODO 4 - Create Cannons
+    createCannon("top", 0, 1050);
+    createCannon("right", 250, 1400);
+
 
 
     
